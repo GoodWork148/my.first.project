@@ -1,0 +1,78 @@
+.head-banner{
+    background-color: #568b8e;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-position: center;
+    background-size: cover;
+    
+   
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.h1, h1{
+    font-size: 2.5rem;
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.section-icon{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.image-content .image{
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.image-content .text{
+    padding: 3rem;
+}
+
+.reviews{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.singol-reviews img{
+    height: 200px;
+    width: 200px;
+}
+
+.newsletter{
+    background-color: #568b8e;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: center;
+    background-size: cover; 
+    background-blend-mode: multiply;
+}
+
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media screen  and (min-width: 768px){
+    .head-banner{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+.image-content .text{
+    padding: 7rem;
+}
